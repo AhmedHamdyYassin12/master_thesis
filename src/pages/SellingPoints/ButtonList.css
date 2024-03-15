@@ -1,0 +1,34 @@
+.button-list {
+    list-style: none;
+    padding: 0;
+    width: 60%;
+    margin: 0 auto;
+  }
+  
+  .button-list__item {
+    margin: 10px 0;
+  }
+  
+  .button-list__button {
+    width: 70%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ddd;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .button-list__button:hover {
+    background-color: #666;
+    color: #ddd;
+  }
+  
+  .button-list__button:focus {
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Additional styles for active or disabled buttons could be added here */
+  

@@ -1,0 +1,89 @@
+.ticket-info {
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #f9f9f9;
+  }
+  
+  .ticket-info__title {
+    text-align: center;
+  }
+
+  .ticket-info__profile-image {
+    text-align: center;
+  }
+
+  .ticket-info__profile-image > button {
+    border: none;
+    background-color: transparent;
+  }
+  
+  .ticket-info__profile-image img {
+    display: block;
+    margin: 0px auto;
+    width: 120px; /* Adjust as needed */
+    height: 120px; /* Adjust as needed */
+    border-radius: 50%;
+    background-color: #ddd; /* Placeholder color */
+  }
+  
+  .ticket-info__ticket {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 0 0 0;
+    padding: 8px;
+    background-color: #fff;
+    border-radius: 8px;
+  }
+
+  .ticket-info__ticket_date {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 8px;
+    background-color: #fff;
+    border-radius: 8px;
+  }
+  
+  .ticket-info__station {
+    font-weight: bold;
+  }
+  
+  .ticket-info__time {
+    font-size: 0.9rem;
+    color: #666;
+  }
+
+  .ticket-info__date {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .ticket-info__arrow {
+    font-size: 1.5rem;
+    margin: 0 8px;
+  }
+  
+  .ticket-info__certificate {
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 8px 5px;
+  }
+  
+  .ticket-info__certificate-verified {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .ticket-info__checkmark {
+    color: green;
+    margin-left: 8px;
+  }
+  

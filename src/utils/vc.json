@@ -1,0 +1,43 @@
+{
+    "metadata": {
+      "type": "VerifiableCredential",
+      "issuer": "CredentialAuthority",
+      "issuedOn": "2024-05-01T00:00:00Z",
+      "validFrom": "2024-05-01T00:00:00Z",
+      "expires": "2025-05-01T00:00:00Z"
+    },
+    "claims": {
+      "name": "Ahmed Yassin",
+      "dateOfBirth": "1990-04-23",
+      "email": "john.doe@example.com",
+      "userPhoto": "data:image/png;base64,...",
+      "iban": "DE89 3704 0044 0532 0130 00",
+      "schoolCertificate": "data:application/pdf;base64,...",
+      "proofOfSeniority": "data:application/pdf;base64,...",
+      "typeOfSubscription": "Premium"
+    },
+    "proof": {
+      "type": "MerkleRoot",
+      "value": "RH",
+      "AuthPK": "Public key of Auth",
+      "AuthCert": "Digital certificate of Auth",
+      "PoPPK": "Public key of Proof of Possession"
+    },
+    "MerkleTree": {
+      "root": "<merkle_root_hash>",
+      "nodes": [
+        {"AuthPK": "<hashed_AuthPK>"},
+        {"AuthCert": "<hashed_AuthCert>"},
+        {"PoPPK": "<hashed_PoPPK>"},
+        {"1": "<hashed_name>"},
+        {"2": "<hashed_dob>"},
+        {"3": "<hashed_email>"},
+        {"4": "<hashed_iban>"},
+        {"5": "<hashed_photo>"},
+        {"6": "<hashed_school_certificate>"},
+        {"7": "<hashed_seniority_boolean>"},
+        {"8": "<hashed_subscription_type>"}
+      ]
+    }
+  }
+  
